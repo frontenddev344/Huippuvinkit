@@ -96,7 +96,7 @@ html {
 
     & .site-nav li a {
         text-transform: capitalize;
-        color: #fff;
+        color: $heading-color;
         font-weight: 500;
         padding: 10px 0 10px 24px;
         font-size: 16px;
@@ -117,7 +117,7 @@ html {
             display: block;
             width: 0;
             height: 2px;
-            background: #da1c4b;
+            background: $site-btn;
             transition: width .3s;
         }
 
@@ -126,7 +126,7 @@ html {
         }
 
         &:hover {
-            color: #da1c4b;
+            color: $site-btn;
         }
     }
 
@@ -143,7 +143,7 @@ html {
     .bar-3 {
         width: 2.5rem;
         height: 2px;
-        background-color: #fff;
+        background-color: $heading-color;
         margin: 0.6rem 0;
         transition: all 0.3s linear;
         display: block;
@@ -182,7 +182,7 @@ html {
         & h1 {
             font-family: 'Montserrat', sans-serif;
             font-size: 4rem;
-            color: #fff;
+            color: $heading-color;
             font-weight: 700;
             width: 100%;
             max-width: 500px;
@@ -193,8 +193,8 @@ html {
 
         & .button-wrapper {
             & a {
-                background-color: #da1c4b;
-                color: #fff;
+                background-color: $site-btn;
+                color: $heading-color;
                 padding-top: 17px;
                 padding-right: 40px;
                 padding-bottom: 17px;
@@ -203,13 +203,12 @@ html {
                 font-size: 14px;
                 font-family: 'Noto Sans', sans-serif;
                 display: inline-block;
-                border: 1px solid #da1c4b;
+                border: 1px solid $site-btn;
 
                 &:hover {
                     background-color: transparent;
-                    color: #da1c4b;
-                    border: 1px solid #da1c4b;
-
+                    color: $site-btn;
+                    border: 1px solid $site-btn;
                 }
             }
         }
@@ -218,7 +217,7 @@ html {
 
 // discritpion-bnr
 section.discritpion-bnr {
-    background-color: #f5f5f5;
+    background-color: $heading-color;
     padding: 50px 0;
 
     & .discritpion {
@@ -268,7 +267,7 @@ section.discritpion-bnr {
 }
 
 .content .content-overlay {
-    background: rgba(0, 0, 0, 0.7);
+    background: $overlay-color;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -322,7 +321,7 @@ section.discritpion-bnr {
 
 h3.content-title {
     font-size: 20px;
-    color: #fff;
+    color: $heading-color;
     font-weight: 700;
 }
 
@@ -339,9 +338,9 @@ h3.content-title {
     position: relative;
 
     &::after {
-        background-color: #000000;
+        background-color: $overlay-color;
         opacity: 0.65;
-       
+
         content: "";
         width: 100%;
         height: 100%;
@@ -356,7 +355,7 @@ h3.content-title {
 
         & h3 {
             font-size: 40px;
-            color: #fff;
+            color: $heading-color;
             font-family: 'Montserrat', sans-serif;
             text-transform: uppercase;
             font-weight: 700;
@@ -366,7 +365,7 @@ h3.content-title {
 
         & p {
             font-size: 16px;
-            color: #fff;
+            color: $heading-color;
             font-family: 'Noto Sans', sans-serif;
             line-height: 30px;
             margin: 0;
@@ -376,18 +375,18 @@ h3.content-title {
         & .button-wrapper {
             & a {
                 padding: 14px 40px;
-                background-color: #da1c4b;
-                color: #fff;
+                background-color: $site-btn;
+                color: $heading-color;
                 display: inline-block;
                 font-size: 16px;
                 font-family: 'Noto Sans', sans-serif;
-                border: 1px solid #da1c4b;
+                border: 1px solid $site-btn;
                 border-radius: 30px;
 
                 &:hover {
                     background-color: transparent;
-                    color: #da1c4b;
-                    border: 1px solid #da1c4b;
+                    color: $site-btn;
+                    border: 1px solid $site-btn;
                 }
             }
         }
@@ -416,7 +415,7 @@ footer.footer {
     .knsl-footer-about {
         display: block;
         width: 80%;
-        color: #fff;
+        color: $heading-color;
         font-size: 16px;
         font-family: 'Noto Sans', sans-serif;
     }
@@ -426,24 +425,24 @@ footer.footer {
     }
 
     .knsl-footer-social i {
-        background: #fff;
+        background: $heading-color;
         height: 40px;
         width: 40px;
         padding: 9px;
         text-align: center;
-        color: #da1c4b;
+        color: $site-btn;
         font-size: 22px;
         border-radius: 30px;
         transition: all 0.2s;
 
         &:hover {
-            background-color: #da1c4b;
-            color: #fff;
+            background-color: $site-btn;
+            color: $heading-color;
         }
     }
 
     .knsl-footer-social a {
-        color: #FFFFFF;
+        color: $heading-color;
         margin-right: 10px;
         -webkit-transition: 0.2s ease-in-out;
         transition: 0.2s ease-in-out;
@@ -463,13 +462,13 @@ footer.footer {
     }
 
     ul.footer-menu li a {
-        color: #fff;
+        color: $heading-color;
         font-size: 15px;
         font-family: 'Noto Sans', sans-serif;
         transition: all 0.3s;
 
         &:hover {
-            color: #da1c4b;
+            color: $site-btn;
             padding-left: 10px;
         }
     }
@@ -541,7 +540,7 @@ footer.footer {
     .copy-text {
         text-align: center;
         width: 100%;
-        color: #fff;
+        color: $heading-color;
         font-family: 'Noto Sans', sans-serif;
     }
 }
@@ -591,7 +590,7 @@ section.hotel-card {
             height: 40px;
             margin-left: -20px;
             border: 1px solid #BAAC8F;
-            background: #FFF;
+            background: $heading-color;
             position: absolute;
             top: 80px;
             left: 50%;
@@ -630,22 +629,22 @@ section.hotel-card {
             & .btn-read a {
                 padding: 0px 30px;
                 font: 14px/44px 'Work Sans';
-                color: #FFF;
+                color: $heading-color;
                 letter-spacing: .5px;
                 text-transform: uppercase;
-                background: #da1c4b;
+                background: $site-btn;
                 display: inline-block;
                 position: relative;
                 cursor: pointer;
                 white-space: nowrap;
                 box-sizing: border-box;
                 transition: .3s ease;
-                border: 1px solid #da1c4b;
+                border: 1px solid $site-btn;
 
                 &:hover {
                     background-color: transparent;
-                    color: #da1c4b;
-                    border: 1px solid #da1c4b;
+                    color: $site-btn;
+                    border: 1px solid $site-btn;
                 }
             }
         }
@@ -685,7 +684,7 @@ section.hotel-card {
                 height: 40px;
                 margin-left: -20px;
                 border: 1px solid #BAAC8F;
-                background: #FFF;
+                background: $heading-color;
                 position: absolute;
                 top: 80px;
                 left: 50%;
@@ -717,7 +716,7 @@ section.hotel-card {
                 height: 40px;
                 margin-left: -20px;
                 border: 1px solid #BAAC8F;
-                background: #FFF;
+                background: $heading-color;
                 position: absolute;
                 top: 80px;
                 left: 50%;
@@ -803,7 +802,7 @@ section.content-contact {
             font-family: 'Noto Sans', sans-serif;
 
             & a {
-                color: #da1c4b
+                color: $site-btn
             }
         }
     }
@@ -845,7 +844,7 @@ section.terms {
             &::before {
                 position: absolute;
                 content: "";
-                background: #da1c4b;
+                background: $site-btn;
                 width: 8px;
                 height: 8px;
                 top: 8px;
