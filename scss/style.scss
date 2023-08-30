@@ -163,15 +163,7 @@ html {
     background-attachment: fixed;
 
     &::after {
-        background-color: #000;
-        opacity: .65;
-        transition: background .3s, border-radius .3s, opacity .3s;
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        inset: 0;
-        z-index: -9;
+        @include overlay;
     }
 
     & .bnr-text {
