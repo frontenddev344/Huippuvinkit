@@ -717,6 +717,9 @@ section.site-bnr.Luksus.Lomakeskus {
   background-size: center;
 }
 
+section.lomakeskus-card .orla.one {
+  margin-top: 30px;
+}
 section.lomakeskus-card .card-design {
   background-color: #fff;
   box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
