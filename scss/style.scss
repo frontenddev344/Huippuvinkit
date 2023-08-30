@@ -595,24 +595,10 @@ section.hotel-card {
             }
 
             & .btn-read a {
-                padding: 0px 30px;
-                font: 14px/44px 'Work Sans';
-                color: $heading-color;
-                letter-spacing: .5px;
-                text-transform: uppercase;
-                background: $site-btn;
-                display: inline-block;
-                position: relative;
-                cursor: pointer;
-                white-space: nowrap;
-                box-sizing: border-box;
-                transition: .3s ease;
-                border: 1px solid $site-btn;
+                @include btnprob;
 
                 &:hover {
-                    background-color: transparent;
-                    color: $site-btn;
-                    border: 1px solid $site-btn;
+                    @include btnhover;
                 }
             }
         }
@@ -820,6 +806,7 @@ section.site-bnr.Luksus.Lomakeskus {
     background-size: center;
 
 }
+
 
 // Lomakeskus page css
 

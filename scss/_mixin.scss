@@ -29,6 +29,30 @@
     object-fit: cover
 }
 
+// btn css
+@mixin btnprob {
+    padding: 0px 30px;
+    font: 14px/44px 'Work Sans';
+    color: $heading-color;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    background: $site-btn;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition: .3s ease;
+    border: 1px solid $site-btn
+}
+
+// btn hover css
+@mixin btnhover {
+    background-color: transparent;
+    color: $site-btn;
+    border: 1px solid $site-btn;
+}
+
 @mixin overlay {
     background-color: rgba(0, 0, 0, 0.6705882353);
     opacity: .65;
