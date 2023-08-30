@@ -809,12 +809,7 @@ section.site-bnr.Luksus.Lomakeskus {
 
 section.lomakeskus-card {
     .card-design {
-        .card-img-inner img {
-            box-shadow: 10px 10px 0 1px rgba(0, 0, 0, .07);
-            filter: brightness(103%) contrast(96%) saturate(81%) blur(0px) hue-rotate(336deg);
-            border-radius: 4px 4px 4px 4px;
-        }
-
+        background-color: $;
         .card-design-inner-text {
             h4 {
                 margin: 20px 0;
