@@ -20,6 +20,15 @@
     background-attachment: fixed;
 }
 
+// Other Page Banner 
+@mixin other-bnr {
+    background: url(../img/Luxury-bner.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    object-fit: cover
+}
+
 @mixin overlay {
     background-color: rgba(0, 0, 0, 0.6705882353);
     opacity: .65;

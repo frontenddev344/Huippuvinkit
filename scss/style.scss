@@ -522,11 +522,7 @@ footer.footer {
 // Luksus page css end
 // banner
 section.site-bnr.Luksus {
-    background: url(../img/Luxury-bner.jpeg)no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    object-fit: cover
+    @include other-bnr;
 }
 
 // banner
@@ -733,16 +729,6 @@ section.hotel-card {
         padding: 0;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 // hotel card css
