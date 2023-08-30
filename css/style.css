@@ -717,6 +717,46 @@ section.site-bnr.Luksus.Lomakeskus {
   background-size: center;
 }
 
+section.lomakeskus-card .card-design .card-img-inner img {
+  box-shadow: 10px 10px 0 1px rgba(0, 0, 0, 0.07);
+  filter: brightness(103%) contrast(96%) saturate(81%) blur(0px) hue-rotate(336deg);
+  border-radius: 4px 4px 4px 4px;
+}
+section.lomakeskus-card .card-design .card-design-inner-text h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+section.lomakeskus-card .card-design .card-design-inner-text p {
+  font-size: 16px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+section.lomakeskus-card .card-design .card-design-inner-text a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #da1c4b;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #da1c4b;
+}
+section.lomakeskus-card .card-design .card-design-inner-text a:hover {
+  background-color: transparent;
+  color: #da1c4b;
+  border: 1px solid #da1c4b;
+}
+
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {
     font-size: 18pxpx;
