@@ -809,8 +809,12 @@ section.site-bnr.Luksus.Lomakeskus {
 
 section.lomakeskus-card {
     .card-design {
-        background-color: $;
+        background-color: $heading-color;
+        box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
+
         .card-design-inner-text {
+            padding: 0 31px 30px;
+
             h4 {
                 margin: 20px 0;
                 font-size: 22px;
