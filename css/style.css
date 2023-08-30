@@ -711,6 +711,12 @@ section.terms .condition_wrap ul li::before {
   border-radius: 50%;
 }
 
+section.site-bnr.Luksus.Lomakeskus {
+  background: url(../img/Holiday-bnner.jpg) no-repeat;
+  background-position: center;
+  background-size: center;
+}
+
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {
     font-size: 18pxpx;
