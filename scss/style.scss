@@ -150,7 +150,7 @@ html {
 
 // banner css
 .site-bnr {
-   
+    @include home-bnr;
 
     &::after {
         @include overlay;
