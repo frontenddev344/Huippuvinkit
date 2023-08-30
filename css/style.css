@@ -127,7 +127,7 @@ html {
   background-attachment: fixed;
 }
 .site-bnr::after {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6705882353);
   opacity: 0.65;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
   content: "";
@@ -285,8 +285,9 @@ h3.content-title {
   position: relative;
 }
 .understand::after {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6705882353);
   opacity: 0.65;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
   content: "";
   width: 100%;
   height: 100%;

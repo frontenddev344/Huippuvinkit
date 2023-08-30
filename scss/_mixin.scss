@@ -6,7 +6,7 @@
 }
 
 @mixin overlay {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.6705882353);
     opacity: .65;
     transition: background .3s, border-radius .3s, opacity .3s;
     content: '';
