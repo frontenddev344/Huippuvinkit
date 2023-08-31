@@ -725,6 +725,10 @@ section.lomakeskus-card .card-design {
   box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
   height: 100%;
 }
+section.lomakeskus-card .card-design .card-img-inner img {
+  height: 293px;
+  object-fit: cover;
+}
 section.lomakeskus-card .card-design .card-design-inner-text {
   padding: 0 31px 30px;
 }

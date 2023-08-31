@@ -809,8 +809,8 @@ section.site-bnr.Luksus.Lomakeskus {
 
 section.lomakeskus-card {
 
-    .orla{
-        .row .col-lg-4.col-md-6{
+    .orla {
+        .row .col-lg-4.col-md-6 {
             margin-bottom: 20px;
         }
     }
@@ -819,6 +819,12 @@ section.lomakeskus-card {
         background-color: $heading-color;
         box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
         height: 100%;
+
+
+        .card-img-inner img {
+            height: 293px;
+            object-fit: cover;
+        }
 
         .card-design-inner-text {
             padding: 0 31px 30px;
