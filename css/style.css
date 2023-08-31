@@ -965,7 +965,7 @@ section.site-bnr.contact.privacy {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 10px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #ffd121;
+  border-top-color: #cb8670;
   /* It is not in alphabetical order so that you do not overwrite it */
   height: 9em;
   margin: 0 auto 3.5em auto;
@@ -981,7 +981,7 @@ section.site-bnr.contact.privacy {
 
 .container-preloader .animation-preloader .txt-loading .characters:before {
   animation: characters 4s infinite;
-  color: orange;
+  color: #cb8670;
   content: attr(preloader-text);
   left: 0;
   opacity: 0;
