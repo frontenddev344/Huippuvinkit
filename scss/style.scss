@@ -565,10 +565,6 @@ section.hotel-card {
             box-sizing: border-box;
             border-radius: 100%;
 
-            @media screen and (max-width:991px) {
-                display: none;
-            }
-
         }
 
         .card-heading {
@@ -923,6 +919,11 @@ section.ainutlaatuisten {
             margin: 0 auto;
             height: 382px;
             object-fit: cover;
+
+            @media (max-width:767px) {
+                height: auto;
+                max-width: 100%;
+            }
         }
 
         &:hover img {
@@ -931,6 +932,13 @@ section.ainutlaatuisten {
     }
 
     & .Hotel-text {
+        @media screen and (max-width:767px) {
+            margin-top: 40px;
+        }
+
+
+
+
         & h3 {
             font-size: 22px;
             color: #000;
@@ -968,9 +976,12 @@ section.ainutlaatuinen-hotel {
 
             .product-img {
                 img {
-
                     height: 366px;
-                    object-fit: cover
+                    object-fit: cover;
+
+                    @media (max-width:575px) {
+                        height: auto;
+                    }
                 }
             }
 
@@ -1022,7 +1033,9 @@ section.ainutlaatuinen-hotel {
 }
 
 
-
+section.site-bnr.Luksus.tarjoukset {
+    background: url(../img/);
+}
 
 
 
