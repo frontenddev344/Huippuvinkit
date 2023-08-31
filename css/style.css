@@ -773,6 +773,12 @@ section.site-bnr.Luksus.ainutlaatuinen {
   background-repeat: no-repeat;
   background-size: cover;
 }
+section.site-bnr.Luksus.ainutlaatuinen .ainutlaatuisten-inner .figure-classic {
+  margin-top: 22px;
+}
+section.site-bnr.Luksus.ainutlaatuinen .ainutlaatuisten-inner .figure-classic-left {
+  margin-left: 22px;
+}
 
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {

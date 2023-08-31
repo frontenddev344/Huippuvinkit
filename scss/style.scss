@@ -862,12 +862,21 @@ section.lomakeskus-card {
 
 // Ainutlaatuinen
 
-section.site-bnr.Luksus.ainutlaatuinen{
+section.site-bnr.Luksus.ainutlaatuinen {
     background: url(../img/Ainutlaatuinen.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 
+    .ainutlaatuisten-inner {
+        .figure-classic {
+            margin-top: 22px;
+        }
+
+        .figure-classic-left {
+            margin-left: 22px;
+        }
+    }
 }
 
 
