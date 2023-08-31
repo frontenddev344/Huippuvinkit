@@ -79,6 +79,9 @@ html {
   z-index: 999;
   font-family: "Noto Sans", sans-serif;
 }
+.site-header .site-nav li a.active {
+  color: #da1c4b;
+}
 .site-header .site-nav li a:hover {
   color: #4c9ef1;
 }
@@ -927,7 +930,9 @@ section.ainutlaatuinen-hotel .hotel-inner.one {
 }
 
 section.site-bnr.Luksus.tarjoukset {
-  background: url(../img/);
+  background: url(../img/Bidding.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media (max-width: 1259px) {
