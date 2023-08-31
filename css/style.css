@@ -858,9 +858,57 @@ section.ainutlaatuisten {
 section.ainutlaatuinen-hotel {
   padding: 80px 0;
 }
-
-article.product-big {
+section.ainutlaatuinen-hotel .hotel-inner .product-big {
   border: 1px solid #e1e1e1;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img {
+  height: 366px;
+  object-fit: cover;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body {
+  padding: 30px 70px 30px 10%;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body h3 {
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .group-sm.group-middle.justify-content-start .product-big-rating i {
+  color: #ffd121;
+  font-size: 16px;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  margin: 20px 0;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .ainutlaatuinen-bnt a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #da1c4b;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #da1c4b;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .ainutlaatuinen-bnt a:hover {
+  background-color: transparent;
+  color: #da1c4b;
+  border: 1px solid #da1c4b;
+}
+section.ainutlaatuinen-hotel .hotel-inner.one {
+  margin-top: 40px;
 }
 
 @media (max-width: 1259px) {
