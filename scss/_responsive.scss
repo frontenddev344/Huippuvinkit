@@ -1,10 +1,17 @@
 @media (max-width:1259px) {
     section.hotel-card .hotel-card-inner .card-heading h2 {
-        font-size: 18pxpx;
+        font-size: 20px;
     }
 }
 
 @media (max-width:1199px) {
+
+    section.hotel-card .hotel-card-inner .arrow-icon:before,
+    section.hotel-card .hotel-card-inner .second-line:before,
+    section.hotel-card .hotel-card-inner .second-arrow::before {
+        display: none;
+    }
+
     .site-bnr {
         height: 500px;
     }
@@ -16,6 +23,7 @@
     .understand .understand-text {
         padding: 0 0 0 0;
     }
+
 }
 
 @media screen and (max-width:991px) {
@@ -160,9 +168,22 @@
     .card-heading.one {
         margin: 40px 0;
     }
+
+    section.ainutlaatuisten {
+        padding-top: 20px;
+    }
+
+    section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body {
+        padding: 30px 19px 30px 7%;
+    }
 }
 
 @media (max-width:767px) {
+
+    section.lomakeskus-card .orla .row .col-lg-4.col-md-6:last-child {
+        margin: 0;
+    }
+
     .col-md-6.col-lg-2 {
         margin-top: 20px;
     }

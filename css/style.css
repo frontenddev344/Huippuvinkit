@@ -508,11 +508,6 @@ section.hotel-card .hotel-card-inner .arrow-icon:before {
   box-sizing: border-box;
   border-radius: 100%;
 }
-@media screen and (max-width: 991px) {
-  section.hotel-card .hotel-card-inner .arrow-icon:before {
-    display: none;
-  }
-}
 section.hotel-card .hotel-card-inner .card-heading {
   text-align: right;
   box-sizing: border-box;
@@ -821,8 +816,19 @@ section.ainutlaatuisten {
   height: 382px;
   object-fit: cover;
 }
+@media (max-width: 767px) {
+  .ainutlaatuisten-inner .figure-classic-left img {
+    height: auto;
+    max-width: 100%;
+  }
+}
 .ainutlaatuisten-inner .figure-classic-left:hover img {
   transform: translate3d(-22px, -22px, 0);
+}
+@media screen and (max-width: 767px) {
+  .ainutlaatuisten-inner .Hotel-text {
+    margin-top: 40px;
+  }
 }
 .ainutlaatuisten-inner .Hotel-text h3 {
   font-size: 22px;
@@ -868,6 +874,11 @@ section.ainutlaatuinen-hotel .hotel-inner .product-big {
 section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img {
   height: 366px;
   object-fit: cover;
+}
+@media (max-width: 575px) {
+  section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img {
+    height: auto;
+  }
 }
 section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body {
   padding: 30px 70px 30px 10%;
@@ -915,12 +926,21 @@ section.ainutlaatuinen-hotel .hotel-inner.one {
   margin-top: 40px;
 }
 
+section.site-bnr.Luksus.tarjoukset {
+  background: url(../img/);
+}
+
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {
-    font-size: 18pxpx;
+    font-size: 20px;
   }
 }
 @media (max-width: 1199px) {
+  section.hotel-card .hotel-card-inner .arrow-icon:before,
+  section.hotel-card .hotel-card-inner .second-line:before,
+  section.hotel-card .hotel-card-inner .second-arrow::before {
+    display: none;
+  }
   .site-bnr {
     height: 500px;
   }
@@ -1038,8 +1058,17 @@ section.ainutlaatuinen-hotel .hotel-inner.one {
   .card-heading.one {
     margin: 40px 0;
   }
+  section.ainutlaatuisten {
+    padding-top: 20px;
+  }
+  section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body {
+    padding: 30px 19px 30px 7%;
+  }
 }
 @media (max-width: 767px) {
+  section.lomakeskus-card .orla .row .col-lg-4.col-md-6:last-child {
+    margin: 0;
+  }
   .col-md-6.col-lg-2 {
     margin-top: 20px;
   }
