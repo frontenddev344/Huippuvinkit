@@ -464,6 +464,9 @@ footer.footer .copy-text {
   color: #fff;
   font-family: "Noto Sans", sans-serif;
 }
+footer.footer .copy-text a {
+  color: #cb8670;
+}
 
 section.site-bnr.Luksus {
   background: url(../img/Luxury-bner.jpeg) no-repeat;
