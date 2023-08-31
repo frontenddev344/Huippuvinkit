@@ -867,9 +867,74 @@ section.site-bnr.Luksus.ainutlaatuinen {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
+.ainutlaatuisten-inner {
+    .figure-classic {
+        margin-top: 22px;
+        position: relative;
+        display: inline-block;
+
+        &::before {
+            display: inline-block;
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border: 2px solid #444349;
+            transition: all .3s ease;
+            z-index: -9;
+        }
+
+        &:hover::before {
+            transform: none;
+        }
+
+        & img {
+            position: relative;
+            transition: all .3s ease;
+        }
+
+    }
+
+    .figure-classic-left {
+        margin-left: 22px;
+
+        &::before {
+            transform: translate3d(-22px, -22px, 0);
+        }
+
+        & img {
+            max-width: 556px;
+            margin: 0 auto;
+            height: 382px;
+            object-fit: cover;
+        }
+
+        &:hover img {
+            transform: translate3d(-22px, -22px, 0);
+        }
+    }
+
+    & .Hotel-text {
+        & h3 {
+            font-size: 22px;
+            color: #000;
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 600;
+        }
+
+        & p {
+            color: #000;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: 'Noto Sans', sans-serif;
+        }
+    }
+
+}
 
 
 

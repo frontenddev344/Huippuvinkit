@@ -774,6 +774,58 @@ section.site-bnr.Luksus.ainutlaatuinen {
   background-size: cover;
 }
 
+.ainutlaatuisten-inner .figure-classic {
+  margin-top: 22px;
+  position: relative;
+  display: inline-block;
+}
+.ainutlaatuisten-inner .figure-classic::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #444349;
+  transition: all 0.3s ease;
+  z-index: -9;
+}
+.ainutlaatuisten-inner .figure-classic:hover::before {
+  transform: none;
+}
+.ainutlaatuisten-inner .figure-classic img {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.ainutlaatuisten-inner .figure-classic-left {
+  margin-left: 22px;
+}
+.ainutlaatuisten-inner .figure-classic-left::before {
+  transform: translate3d(-22px, -22px, 0);
+}
+.ainutlaatuisten-inner .figure-classic-left img {
+  max-width: 556px;
+  margin: 0 auto;
+  height: 382px;
+  object-fit: cover;
+}
+.ainutlaatuisten-inner .figure-classic-left:hover img {
+  transform: translate3d(-22px, -22px, 0);
+}
+.ainutlaatuisten-inner .Hotel-text h3 {
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.ainutlaatuisten-inner .Hotel-text p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+}
+
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {
     font-size: 18pxpx;
