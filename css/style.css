@@ -767,6 +767,13 @@ section.lomakeskus-card .card-design .card-design-inner-text a:hover {
   border: 1px solid #da1c4b;
 }
 
+section.site-bnr.Luksus.ainutlaatuinen {
+  background: url(../img/Ainutlaatuinen.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {
     font-size: 18pxpx;
