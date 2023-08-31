@@ -819,7 +819,11 @@ section.lomakeskus-card {
         background-color: $heading-color;
         box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
         height: 100%;
+        transition: all 0.3s;
 
+        &:hover {
+            transform: translateY(-6px);
+        }
 
         .card-img-inner img {
             height: 293px;

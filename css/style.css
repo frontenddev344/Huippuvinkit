@@ -724,6 +724,10 @@ section.lomakeskus-card .card-design {
   background-color: #fff;
   box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
   height: 100%;
+  transition: all 0.3s;
+}
+section.lomakeskus-card .card-design:hover {
+  transform: translateY(-6px);
 }
 section.lomakeskus-card .card-design .card-img-inner img {
   height: 293px;
