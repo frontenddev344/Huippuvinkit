@@ -869,7 +869,15 @@ section.site-bnr.Luksus.ainutlaatuinen {
     background-size: cover;
 }
 
+section.ainutlaatuisten {
+    padding-top: 50px;
+}
+
 .ainutlaatuisten-inner {
+    .row {
+        align-items: center;
+    }
+
     .figure-classic {
         margin-top: 22px;
         position: relative;
@@ -924,6 +932,7 @@ section.site-bnr.Luksus.ainutlaatuinen {
             color: #000;
             font-family: 'Noto Sans', sans-serif;
             font-weight: 600;
+            margin-bottom: 20px;
         }
 
         & p {
@@ -931,6 +940,15 @@ section.site-bnr.Luksus.ainutlaatuinen {
             font-size: 16px;
             font-weight: 400;
             font-family: 'Noto Sans', sans-serif;
+            margin-bottom: 20px;
+        }
+
+        & a {
+            @include btnprob;
+
+            &:hover {
+                @include btnhover;
+            }
         }
     }
 

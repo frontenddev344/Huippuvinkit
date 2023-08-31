@@ -774,6 +774,13 @@ section.site-bnr.Luksus.ainutlaatuinen {
   background-size: cover;
 }
 
+section.ainutlaatuisten {
+  padding-top: 50px;
+}
+
+.ainutlaatuisten-inner .row {
+  align-items: center;
+}
 .ainutlaatuisten-inner .figure-classic {
   margin-top: 22px;
   position: relative;
@@ -818,12 +825,34 @@ section.site-bnr.Luksus.ainutlaatuinen {
   color: #000;
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .ainutlaatuisten-inner .Hotel-text p {
   color: #000;
   font-size: 16px;
   font-weight: 400;
   font-family: "Noto Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.ainutlaatuisten-inner .Hotel-text a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #da1c4b;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #da1c4b;
+}
+.ainutlaatuisten-inner .Hotel-text a:hover {
+  background-color: transparent;
+  color: #da1c4b;
+  border: 1px solid #da1c4b;
 }
 
 @media (max-width: 1259px) {
