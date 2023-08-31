@@ -855,6 +855,14 @@ section.ainutlaatuisten {
   border: 1px solid #da1c4b;
 }
 
+section.ainutlaatuinen-hotel {
+  padding: 80px 0;
+}
+
+article.product-big {
+  border: 1px solid #e1e1e1;
+}
+
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {
     font-size: 18pxpx;
