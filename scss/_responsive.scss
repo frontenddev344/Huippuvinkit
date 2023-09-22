@@ -23,6 +23,7 @@
     .understand .understand-text {
         padding: 0 0 0 0;
     }
+
     .site-header .site-nav li a {
 
         padding: 10px 0 10px 20px;
@@ -31,6 +32,9 @@
 }
 
 @media screen and (max-width:991px) {
+    .card-img {
+        padding: 0px 0 0px;
+    }
 
     .col-md-6.col-lg-3 {
         margin-top: 10px;
@@ -171,7 +175,7 @@
     }
 
     .card-heading.one {
-        margin: 40px 0;
+        margin: 0px 0;
     }
 
     section.ainutlaatuisten {

@@ -496,7 +496,7 @@ section.site-bnr.Luksus {
 }
 
 section.hotel-card {
-  padding: 80px 0 0;
+  padding: 0px 0 0;
 }
 section.hotel-card .hotel-card-inner {
   position: relative;
@@ -1215,6 +1215,9 @@ section.site-bnr.contact.privacy {
   }
 }
 @media screen and (max-width: 991px) {
+  .card-img {
+    padding: 0px 0 0px;
+  }
   .col-md-6.col-lg-3 {
     margin-top: 10px;
   }
@@ -1320,7 +1323,7 @@ section.site-bnr.contact.privacy {
     margin-top: 29px;
   }
   .card-heading.one {
-    margin: 40px 0;
+    margin: 0px 0;
   }
   section.ainutlaatuisten {
     padding-top: 20px;
