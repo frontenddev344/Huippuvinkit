@@ -1347,12 +1347,18 @@ section.site-bnr.contact.privacy {
     height: 400px;
     background-attachment: unset;
   }
+  .understand {
+    background-attachment: unset;
+  }
 }
 @media (max-width: 767px) {
   footer.footer .footer-insta {
     float: none;
     width: 62%;
     margin: 0 auto;
+  }
+  .understand {
+    padding: 50px 0;
   }
   section.lomakeskus-card .orla .row .col-lg-4.col-md-6:last-child {
     margin: 0;
