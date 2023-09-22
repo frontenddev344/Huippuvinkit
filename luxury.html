@@ -207,7 +207,7 @@
                                 <div class="card-heading one">
                                     <h2>Hotelli Haven, Helsinki
                                     </h2>
-                                    <p>"5 Hotel Haven määrittelee urbaanin ylellisyyden. Boutiquen viehätys,
+                                    <p>" Hotel Haven määrittelee urbaanin ylellisyyden. Boutiquen viehätys,
                                         rantanäkymät ja henkilökohtainen palvelu yhdistyvät saumattomasti ja luovat
                                         hienostuneen sävyn Helsinki-matkalle."
 
@@ -239,7 +239,7 @@
                                 <div class="card-heading one">
                                     <h2> Hotel Klaus K, Helsinki:
                                     </h2>
-                                    <p>6 Hotel Klaus K, Helsinki:
+                                    <p>Hotel Klaus K, Helsinki:
                                         "Hotel Klaus K on design-helmi. Eklektiset sisätilat, taiteelliset
                                         yksityiskohdat ja pohjoismainen tunnelma tarjoavat ainutlaatuisen,
                                         mukaansatempaavan oleskelun Helsingin eloisassa sydämessä."
@@ -340,19 +340,19 @@
             });
         });
     </script>
-    <script>$(document).ready(function () {
-            setTimeout(function () {
-                $('#container').addClass('loaded');
-                // Once the container has finished, the scroll appears
-                if ($('#container').hasClass('loaded')) {
-                    // It is so that once the container is gone, the entire preloader section is deleted
-                    $('#preloader').delay(1000).queue(function () {
-                        $(this).remove();
-                    });
-                }
-            }, 3000);
-        });
-    </script>
+      <script>$(document).ready(function () {
+        setTimeout(function () {
+            $('#container').addClass('loaded');
+            // Once the container has finished, the scroll appears
+            if ($('#container').hasClass('loaded')) {
+                // It is so that once the container is gone, the entire preloader section is deleted
+                $('#preloader').delay(1000).queue(function () {
+                    $(this).remove();
+                });
+            }
+        }, 1000);
+    });
+</script>
 
 </body>
 

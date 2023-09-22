@@ -13,23 +13,23 @@ a {
     text-decoration: none;
 }
 
-// ::-webkit-scrollbar {
-//     width: 4px;
-// }
+::-webkit-scrollbar {
+    width: 4px;
+}
 
-// ::-webkit-scrollbar-track {
-//     background: #ECFAFB;
-// }
+::-webkit-scrollbar-track {
+    background: #ECFAFB;
+}
 
-// ::-webkit-scrollbar-thumb {
-//     background: #8c4448;
-//     border-radius: 2px;
-// }
+::-webkit-scrollbar-thumb {
+    background:$site-btn;
+    border-radius: 2px;
+}
 
-// ::-webkit-scrollbar-thumb:hover {
-//     -webkit-filter: brightness(120%);
-//     filter: brightness(120%);
-// }
+::-webkit-scrollbar-thumb:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
+}
 
 body {
     margin: 0;
@@ -872,7 +872,7 @@ section.lomakeskus-card {
 // Ainutlaatuinen
 
 section.site-bnr.Luksus.ainutlaatuinen {
-    background: url(../img/Ainutlaatuinen.jpg);
+    background: url(../img/Unique-banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -984,9 +984,15 @@ section.ainutlaatuinen-hotel {
             border: 1px solid #e1e1e1;
 
             .product-img {
+                overflow: hidden;
                 img {
                     height: 366px;
                     object-fit: cover;
+                    transition: all 2s;
+
+                    &:hover{
+                        transform: scale(1.1);
+                    }
 
                     @media (max-width:575px) {
                         height: auto;
@@ -1043,7 +1049,7 @@ section.ainutlaatuinen-hotel {
 
 
 section.site-bnr.Luksus.tarjoukset {
-    background: url(../img/Bidding.jpg)no-repeat;
+    background: url(../img/Bidding-banner.jpg)no-repeat;
     background-position: center;
     background-size: cover;
 
@@ -1096,7 +1102,7 @@ section.site-bnr.contact.privacy {
 }
 
 .container-preloader .animation-preloader .txt-loading .characters:before {
-    animation: characters 4s infinite;
+    animation: characters 2s infinite;
     color: #cb8670;
     content: attr(preloader-text);
     left: 0;

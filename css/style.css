@@ -10,6 +10,24 @@ a {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ECFAFB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cb8670;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -117,7 +135,7 @@ html {
 }
 
 .site-bnr {
-  background: url(../img/homebanners1.jpeg) no-repeat;
+  background: url(../img/homebanners1.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   padding: 100px 0;
@@ -469,7 +487,7 @@ footer.footer .copy-text a {
 }
 
 section.site-bnr.Luksus {
-  background: url(../img/Luxury-bner.jpeg) no-repeat;
+  background: url(../img/Luxury-banner.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -773,7 +791,7 @@ section.lomakeskus-card .card-design .card-design-inner-text a:hover {
 }
 
 section.site-bnr.Luksus.ainutlaatuinen {
-  background: url(../img/Ainutlaatuinen.jpg);
+  background: url(../img/Unique-banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -877,9 +895,16 @@ section.ainutlaatuinen-hotel {
 section.ainutlaatuinen-hotel .hotel-inner .product-big {
   border: 1px solid #e1e1e1;
 }
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img {
+  overflow: hidden;
+}
 section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img {
   height: 366px;
   object-fit: cover;
+  transition: all 2s;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 575px) {
   section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img {
@@ -933,7 +958,7 @@ section.ainutlaatuinen-hotel .hotel-inner.one {
 }
 
 section.site-bnr.Luksus.tarjoukset {
-  background: url(../img/Bidding.jpg) no-repeat;
+  background: url(../img/Bidding-banner.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -983,7 +1008,7 @@ section.site-bnr.contact.privacy {
 }
 
 .container-preloader .animation-preloader .txt-loading .characters:before {
-  animation: characters 4s infinite;
+  animation: characters 2s infinite;
   color: #cb8670;
   content: attr(preloader-text);
   left: 0;

@@ -7,7 +7,7 @@
 
 // Home Page Banner
 @mixin home-bnr {
-    background: url(../img/homebanners1.jpeg)no-repeat;
+    background: url(../img/homebanners1.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     padding: 100px 0;
@@ -22,7 +22,7 @@
 
 // Other Page Banner 
 @mixin other-bnr {
-    background: url(../img/Luxury-bner.jpeg)no-repeat;
+    background: url(../img/Luxury-banner.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
