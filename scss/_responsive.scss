@@ -196,6 +196,17 @@
     footer.footer .knsl-copyright {
         margin-top: 54px;
     }
+
+    .site-bnr {
+
+        background-position: center;
+        background-size: cover;
+        padding: 100px 0;
+
+        height: 400px;
+
+        background-attachment: unset;
+    }
 }
 
 @media (max-width:767px) {
@@ -224,4 +235,6 @@
     .footer-insta {
         justify-content: center;
     }
+
+
 }
