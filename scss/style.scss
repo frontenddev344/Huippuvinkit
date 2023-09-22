@@ -22,7 +22,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-    background:$site-btn;
+    background: $site-btn;
     border-radius: 2px;
 }
 
@@ -520,7 +520,8 @@ footer.footer {
         width: 100%;
         color: $heading-color;
         font-family: 'Noto Sans', sans-serif;
-        a{
+
+        a {
             color: #cb8670
         }
     }
@@ -812,60 +813,168 @@ section.site-bnr.Luksus.Lomakeskus {
 
 }
 
-section.lomakeskus-card {
+// section.lomakeskus-card {
 
-    .orla {
-        .row .col-lg-4.col-md-6 {
-            margin-bottom: 20px;
-        }
-    }
+//     .orla {
+//         .row .col-lg-4.col-md-6 {
+//             margin-bottom: 20px;
+//         }
+//     }
 
-    .card-design {
-        background-color: $heading-color;
-        box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
-        height: 100%;
+//     .card-design {
+//         background-color: $heading-color;
+//         box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
+//         height: 100%;
+//         transition: all 0.3s;
+
+//         &:hover {
+//             transform: translateY(-6px);
+//         }
+
+//         .card-img-inner img {
+//             height: 293px;
+//             object-fit: cover;
+//         }
+
+//         .card-design-inner-text {
+//             padding: 0 31px 30px;
+
+//             h4 {
+//                 margin: 20px 0;
+//                 font-size: 22px;
+//                 color: #000;
+//                 font-family: 'Noto Sans', sans-serif;
+//                 font-weight: 600;
+
+//             }
+
+//             p {
+//                 font-size: 16px;
+//                 color: #000;
+//                 font-family: 'Noto Sans', sans-serif;
+//                 font-weight: 400;
+//                 margin-bottom: 20px;
+
+//             }
+
+//             a {
+//                 @include btnprob;
+
+//                 &:hover {
+//                     @include btnhover;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+.luxury-card {
+    .luxury-card-inner {
+        background-color: #ffffff;
         transition: all 0.3s;
+        box-shadow: 0 0 7px #cb86704a;
+        margin: 30px 0;
+        padding: 16px 16px 16px;
+
 
         &:hover {
-            transform: translateY(-6px);
+            box-shadow: 0 15px 45px 0 rgba(0, 0, 0, .31)
         }
 
-        .card-img-inner img {
-            height: 293px;
-            object-fit: cover;
-        }
+        .row {
+            align-items: center;
 
-        .card-design-inner-text {
-            padding: 0 31px 30px;
+            .text_box {
+              
+                .main_hotel {
+                    .img_box {
+                        overflow: hidden;
+                        transition: all 0.3s;
 
-            h4 {
-                margin: 20px 0;
-                font-size: 22px;
-                color: #000;
-                font-family: 'Noto Sans', sans-serif;
-                font-weight: 600;
+                        img {
+                            height: 277px;
+                            object-fit: cover;
+
+                            &:hover {
+                                transform: scale(1.2);
+                                transition: all 0.3s;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .text_hotel {
+                width: 100%;
+                max-width: 536px;
+                margin: 0 auto;
+
+                h3 {
+
+                    font-size: 22px;
+                    color: #000;
+                    font-family: "Noto Sans", sans-serif;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #000;
+                    font-family: "Noto Sans", sans-serif;
+                    font-weight: 400;
+
+                }
 
             }
 
-            p {
-                font-size: 16px;
-                color: #000;
-                font-family: 'Noto Sans', sans-serif;
-                font-weight: 400;
-                margin-bottom: 20px;
+            .banner-btn.main {
+                a {
+                    padding: 0px 30px;
+                    font: 14px/44px "Work Sans";
+                    color: #fff;
+                    letter-spacing: 0.5px;
+                    text-transform: uppercase;
+                    background: #cb8670;
+                    display: inline-block;
+                    position: relative;
+                    cursor: pointer;
+                    white-space: nowrap;
+                    box-sizing: border-box;
+                    transition: 0.3s ease;
+                    border: 1px solid #cb8670;
 
-            }
-
-            a {
-                @include btnprob;
-
-                &:hover {
-                    @include btnhover;
+                    &:hover {
+                        background-color: transparent;
+                        color: #cb8670;
+                    }
                 }
             }
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 // Lomakeskus page css
 
@@ -985,12 +1094,13 @@ section.ainutlaatuinen-hotel {
 
             .product-img {
                 overflow: hidden;
+
                 img {
                     height: 366px;
                     object-fit: cover;
                     transition: all 2s;
 
-                    &:hover{
+                    &:hover {
                         transform: scale(1.1);
                     }
 
