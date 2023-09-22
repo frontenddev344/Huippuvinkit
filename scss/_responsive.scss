@@ -23,6 +23,10 @@
     .understand .understand-text {
         padding: 0 0 0 0;
     }
+    .site-header .site-nav li a {
+
+        padding: 10px 0 10px 20px;
+    }
 
 }
 
@@ -61,7 +65,7 @@
         right: 0;
         bottom: 0;
         width: 300px;
-        background: linear-gradient(13deg, #4c9ef1 0%, #4c9ef1 50%, rgb(0 0 0) 100%);
+        background: #000;
         transition: .4s cubic-bezier(0, 0, 0.13, 0.61);
         transform: translateX(-100%);
         z-index: 9999;
@@ -78,6 +82,7 @@
 
     .site-header .site-nav ul li a {
         color: #fff;
+        font-weight: 600;
     }
 
     .site-header .menu-toggle {
@@ -175,6 +180,13 @@
 
     section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body {
         padding: 30px 19px 30px 7%;
+    }
+
+    .luxury-card .luxury-card-inner .row .text_hotel {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
     }
 }
 
