@@ -145,7 +145,6 @@ html {
   align-items: center;
   justify-content: center;
   z-index: 99;
-  background-attachment: fixed;
 }
 .site-bnr::after {
   background-color: rgba(0, 0, 0, 0.6705882353);
