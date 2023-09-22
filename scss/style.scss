@@ -810,64 +810,63 @@ section.terms {
 section.site-bnr.Luksus.Lomakeskus {
     background: url(../img/Holiday-bnner.jpg)no-repeat;
     background-position: center;
-    background-size: center;
+    background-size: cover;
 
 }
 
-// section.lomakeskus-card {
+section.lomakeskus-card {
+    .orla {
+        .row .col-lg-4.col-md-6 {
+            margin-bottom: 20px;
+        }
+    }
 
-//     .orla {
-//         .row .col-lg-4.col-md-6 {
-//             margin-bottom: 20px;
-//         }
-//     }
+    .card-design {
+        background-color: $heading-color;
+        box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
+        height: 100%;
+        transition: all 0.3s;
 
-//     .card-design {
-//         background-color: $heading-color;
-//         box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
-//         height: 100%;
-//         transition: all 0.3s;
+        &:hover {
+            transform: translateY(-6px);
+        }
 
-//         &:hover {
-//             transform: translateY(-6px);
-//         }
+        .card-img-inner img {
+            height: 293px;
+            object-fit: cover;
+        }
 
-//         .card-img-inner img {
-//             height: 293px;
-//             object-fit: cover;
-//         }
+        .card-design-inner-text {
+            padding: 0 31px 30px;
 
-//         .card-design-inner-text {
-//             padding: 0 31px 30px;
+            h4 {
+                margin: 20px 0;
+                font-size: 22px;
+                color: #000;
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 600;
 
-//             h4 {
-//                 margin: 20px 0;
-//                 font-size: 22px;
-//                 color: #000;
-//                 font-family: 'Noto Sans', sans-serif;
-//                 font-weight: 600;
+            }
 
-//             }
+            p {
+                font-size: 16px;
+                color: #000;
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: 400;
+                margin-bottom: 20px;
 
-//             p {
-//                 font-size: 16px;
-//                 color: #000;
-//                 font-family: 'Noto Sans', sans-serif;
-//                 font-weight: 400;
-//                 margin-bottom: 20px;
+            }
 
-//             }
+            a {
+                @include btnprob;
 
-//             a {
-//                 @include btnprob;
-
-//                 &:hover {
-//                     @include btnhover;
-//                 }
-//             }
-//         }
-//     }
-// }
+                &:hover {
+                    @include btnhover;
+                }
+            }
+        }
+    }
+}
 
 .luxury-card {
     .luxury-card-inner {
@@ -886,7 +885,7 @@ section.site-bnr.Luksus.Lomakeskus {
             align-items: center;
 
             .text_box {
-              
+
                 .main_hotel {
                     .img_box {
                         overflow: hidden;

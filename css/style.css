@@ -734,7 +734,61 @@ section.terms .condition_wrap ul li::before {
 section.site-bnr.Luksus.Lomakeskus {
   background: url(../img/Holiday-bnner.jpg) no-repeat;
   background-position: center;
-  background-size: center;
+  background-size: cover;
+}
+
+section.lomakeskus-card .orla .row .col-lg-4.col-md-6 {
+  margin-bottom: 20px;
+}
+section.lomakeskus-card .card-design {
+  background-color: #fff;
+  box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  transition: all 0.3s;
+}
+section.lomakeskus-card .card-design:hover {
+  transform: translateY(-6px);
+}
+section.lomakeskus-card .card-design .card-img-inner img {
+  height: 293px;
+  object-fit: cover;
+}
+section.lomakeskus-card .card-design .card-design-inner-text {
+  padding: 0 31px 30px;
+}
+section.lomakeskus-card .card-design .card-design-inner-text h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+section.lomakeskus-card .card-design .card-design-inner-text p {
+  font-size: 16px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+section.lomakeskus-card .card-design .card-design-inner-text a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #cb8670;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #cb8670;
+}
+section.lomakeskus-card .card-design .card-design-inner-text a:hover {
+  background-color: transparent;
+  color: #cb8670;
+  border: 1px solid #cb8670;
 }
 
 .luxury-card .luxury-card-inner {
