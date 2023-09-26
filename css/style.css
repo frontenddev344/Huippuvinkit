@@ -1199,6 +1199,12 @@ section.site-bnr.contact.privacy {
   font-size: 18px;
 }
 
+section.site-bnr.Luksus.entertainment {
+  background: url(../img/entertainment.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media (max-width: 1259px) {
   section.hotel-card .hotel-card-inner .card-heading h2 {
     font-size: 20px;

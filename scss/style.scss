@@ -329,7 +329,7 @@ h3.content-title {
 
 
     & .understand-text {
-        
+
         text-align: center;
 
         & h3 {
@@ -1350,15 +1350,26 @@ section.site-bnr.contact.privacy {
 
 
 
-.text_hotel h6{
+.text_hotel h6 {
     font-size: 19px;
     margin: 12px 0;
     font-weight: 700;
 }
-.text_hotel h6 span{
+
+.text_hotel h6 span {
     font-weight: 600;
     font-size: 18px;
 }
+
+
+
+
+section.site-bnr.Luksus.entertainment {
+    background: url(../img/entertainment.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 // meadia Query
 
 @import 'responsive';
