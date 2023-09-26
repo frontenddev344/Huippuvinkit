@@ -1220,7 +1220,7 @@ section.site-bnr.contact.privacy {
     padding: 0 0 0 0;
   }
   .site-header .site-nav li a {
-    padding: 10px 0 10px 20px;
+    padding: 10px 0 10px 13px;
   }
 }
 @media screen and (max-width: 991px) {
