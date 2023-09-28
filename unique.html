@@ -7,16 +7,17 @@
     <title>Ainutlaatuinen</title>
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="fonts/stylesheet1.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    
+
     <!-- site-header start -->
     <header class="site-header">
         <div class="container">
@@ -110,7 +111,8 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="product-img">
-                                        <a href="https://www.kakslauttanen.fi" target="_blank"><img src="img/Hotel-1.jpg" alt=""></a>
+                                        <a href="https://www.kakslauttanen.fi" target="_blank"><img
+                                                src="img/Hotel-1.jpg" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -148,8 +150,8 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="product-img">
-                                        <a href="https://www.punkaharjuresort.fi" target="_blank"><img src="img/Hotelli9.jpg"
-                                                alt=""></a>
+                                        <a href="https://www.punkaharjuresort.fi" target="_blank"><img
+                                                src="img/Hotelli9.jpg" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -323,7 +325,7 @@
             <div class="knsl-copyright">
                 <div class="container">
                     <div class="copy-text">
-                        <div class="copy-text">Tekijänoikeus © 2023  <a href="index.html">Huippuvinkit.com</a>
+                        <div class="copy-text">Tekijänoikeus © 2023 <a href="index.html">Huippuvinkit.com</a>
                         </div>
                     </div>
 
@@ -347,19 +349,19 @@
             });
         });
     </script>
-     <script>$(document).ready(function () {
-        setTimeout(function () {
-            $('#container').addClass('loaded');
-            // Once the container has finished, the scroll appears
-            if ($('#container').hasClass('loaded')) {
-                // It is so that once the container is gone, the entire preloader section is deleted
-                $('#preloader').delay(1000).queue(function () {
-                    $(this).remove();
-                });
-            }
-        }, 1000);
-    });
-</script>
+    <script>$(document).ready(function () {
+            setTimeout(function () {
+                $('#container').addClass('loaded');
+                // Once the container has finished, the scroll appears
+                if ($('#container').hasClass('loaded')) {
+                    // It is so that once the container is gone, the entire preloader section is deleted
+                    $('#preloader').delay(1000).queue(function () {
+                        $(this).remove();
+                    });
+                }
+            }, 1000);
+        });
+    </script>
 </body>
 
 </html>
