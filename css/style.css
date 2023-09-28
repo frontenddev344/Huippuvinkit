@@ -1,1 +1,1395 @@
-@import "https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800&display=swap";@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap";*{box-sizing:border-box;font-family:"Josefin Sans",sans-serif}a{text-decoration:none}::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:#ECFAFB}::-webkit-scrollbar-thumb{background:#cb8670;border-radius:2px}::-webkit-scrollbar-thumb:hover{-webkit-filter:brightness(120%);filter:brightness(120%)}body{margin:0;padding:0;overflow-x:hidden;font-size:1.6rem}ul{margin:0;padding:0;list-style-type:none;padding:0!important}img{width:100%}a{text-decoration:none!important;color:inherit}a:focus{color:inherit}html{font-size:62.5%}.container{max-width:1400px!important;width:100%;margin:0 auto;padding:0 25px!important}.site-header{padding:10px 0;background:transparent;width:100%;z-index:9999999;transition:all .5s linear;top:0;position:absolute}.site-header .header-wrapper{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center}.site-header .site-nav ul{display:flex;flex-wrap:wrap}.site-header .site-nav li a{text-transform:capitalize;color:#fff;font-weight:500;padding:10px 0 10px 24px;font-size:16px;display:inline-block;position:relative;z-index:999;font-family:"Noto Sans",sans-serif}.site-header .site-nav li a.active{color:#cb8670}.site-header .site-nav li a:hover{color:#4c9ef1}.site-header .site-nav li a::after{content:"";display:block;width:0;height:2px;background:#cb8670;transition:width .3s}.site-header .site-nav li a:hover::after{width:100%}.site-header .site-nav li a:hover{color:#cb8670}.site-header .closed-menu{display:none}.site-header .menu-toggle{display:none}.site-header .menu-toggle .bar-1,.site-header .bar-2,.site-header .bar-3{width:2.5rem;height:2px;background-color:#fff;margin:.6rem 0;transition:all .3s linear;display:block}.site-bnr{background:url(../img/homebanners1.jpg) no-repeat;background-position:center;background-size:cover;padding:100px 0;position:relative;height:800px;display:flex;align-items:center;justify-content:center;z-index:99}.site-bnr::after{background-color:rgba(0,0,0,0.6705882353);opacity:.65;transition:background 0.3s,border-radius 0.3s,opacity .3s;content:"";width:100%;height:100%;position:absolute;inset:0;z-index:-9}.site-bnr .bnr-text{text-align:center}.site-bnr .bnr-text h1{font-family:"Montserrat",sans-serif;font-size:4rem;color:#fff;font-weight:700;width:100%;max-width:500px;margin-left:auto;margin-right:auto;margin-bottom:40px}.site-bnr .bnr-text .button-wrapper a{background-color:#cb8670;color:#fff;border-radius:30px;font-size:14px;font-family:"Noto Sans",sans-serif;display:inline-block;border:1px solid #cb8670;padding:17px 40px}.site-bnr .bnr-text .button-wrapper a:hover{background-color:transparent;color:#cb8670;border:1px solid #cb8670}section.discritpion-bnr{background-color:#fff;padding:50px 0}section.discritpion-bnr .discritpion p{font-family:"Noto Sans",sans-serif;font-weight:400;font-size:1.9rem;margin:0;line-height:1.7em;text-align:center}.card-img{padding:0 0 80px}.main-title{color:#2d2d2d;text-align:center;text-transform:capitalize;padding:.7em 0}.card-box{padding:1em 0;width:100%;height:250px}.card-box .title{color:#1a1a1a;text-align:center;margin-bottom:10px}.content{position:relative;width:100%;margin:auto;overflow:hidden;height:250px;object-fit:cover}.content .content-overlay{background:rgba(0,0,0,0.7);position:absolute;height:100%;width:100%;left:0;top:0;bottom:0;right:0;opacity:0;-webkit-transition:all .4s ease-in-out 0;-moz-transition:all .4s ease-in-out 0;transition:all .4s ease-in-out 0}.content:hover .content-overlay{opacity:1}.content-image{width:100%;height:100%;object-fit:cover}.content-details{position:absolute;text-align:center;padding-left:1em;padding-right:1em;width:100%;top:50%;left:50%;opacity:0;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transition:all .3s ease-in-out 0;-moz-transition:all .3s ease-in-out 0;transition:all .3s ease-in-out 0}.content:hover .content-details{top:50%;left:50%;opacity:1}.fadeIn-bottom{top:80%}h3.content-title{font-size:20px;color:#fff;font-weight:700}.understand{background:url(../img/Home-parallex.jpg);background-position:center center;background-repeat:no-repeat;background-size:cover;padding:170px 0;margin-top:50px;z-index:99;position:relative}.understand::after{background-color:rgba(0,0,0,0.6705882353);opacity:.65;transition:background 0.3s,border-radius 0.3s,opacity .3s;content:"";width:100%;height:100%;position:absolute;inset:0;z-index:-9}.understand .understand-text{text-align:center}.understand .understand-text h3{font-size:40px;color:#fff;font-family:"Montserrat",sans-serif;text-transform:uppercase;font-weight:700;margin:0;padding-bottom:14px}.understand .understand-text p{font-size:16px;color:#fff;font-family:"Noto Sans",sans-serif;line-height:30px;margin:0;padding-bottom:12px}.understand .understand-text .button-wrapper a{padding:14px 40px;background-color:#cb8670;color:#fff;display:inline-block;font-size:16px;font-family:"Noto Sans",sans-serif;border:1px solid #cb8670;border-radius:30px}.understand .understand-text .button-wrapper a:hover{background-color:transparent;color:#cb8670;border:1px solid #cb8670}body#home-page footer.footer{margin:0}footer.footer{background-color:rgba(0,0,0,0.95);padding:60px 0 0;margin-top:100px}footer.footer img.knsl-footer-logo{width:100%;margin-bottom:33px;max-width:221px}footer.footer .knsl-footer-about{display:block;width:80%;color:#fff;font-size:16px;font-family:"Noto Sans",sans-serif}footer.footer .knsl-footer-social{padding-top:50px}footer.footer .knsl-footer-social i{background:#fff;height:40px;width:40px;padding:9px;text-align:center;color:#cb8670;font-size:22px;border-radius:30px;transition:all .2s}footer.footer .knsl-footer-social i:hover{background-color:#cb8670;color:#fff}footer.footer .knsl-footer-social a{color:#fff;margin-right:10px;-webkit-transition:.2s ease-in-out;transition:.2s ease-in-out}footer.footer .footer-inner h4{position:relative;margin-bottom:33px;color:#ECFAFB;line-height:30px;font-size:20px;font-family:"Montserrat",sans-serif}footer.footer .footer-menu li{margin-bottom:20px}footer.footer ul.footer-menu li a{color:#fff;font-size:15px;font-family:"Noto Sans",sans-serif;transition:all .3s;text-transform:capitalize}footer.footer ul.footer-menu li a:hover{color:#cb8670;padding-left:10px}footer.footer .footer-insta a{border-radius:5px;display:block;position:relative;overflow:hidden;width:25%;padding-bottom:28%;transition:.4s ease-in-out;margin:0 15px 0 0;overflow:hidden}footer.footer .footer-insta{float:left;font-size:0;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}footer.footer .footer-insta a:hover{transform:scale(1.05)}footer.footer .footer-insta a img{position:absolute;border-radius:5px;top:0;left:0;width:100%;height:80%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;-webkit-transition:.4s ease-in-out;transition:.4s ease-in-out}footer.footer .knsl-copyright{font-size:15px;background-color:rgba(0,0,0,0.15);padding:20px 0;color:#8588A2;margin-top:60px}footer.footer .knsl-copyright .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;font-family:"Noto Sans",sans-serif}footer.footer .copy-text{text-align:center;width:100%;color:#fff;font-family:"Noto Sans",sans-serif}footer.footer .copy-text a{color:#cb8670}section.site-bnr.Luksus{background:url(../img/Luxury-banner.jpg) no-repeat;background-size:cover;background-position:center;height:400px;object-fit:cover}section.hotel-card{padding:0}section.hotel-card .hotel-card-inner{position:relative}section.hotel-card .hotel-card-inner::before{content:"";width:1px;height:100%;position:absolute;top:0;left:50%;background:#EEE}@media screen and (max-width: 991px){section.hotel-card .hotel-card-inner::before{display:none}}section.hotel-card .hotel-card-inner .arrow-icon:before{content:"\f104";font-size:20px;line-height:40px;color:#BAAC8F;text-align:center;font-family:fontAwesome;width:40px;height:40px;margin-left:-20px;border:1px solid #BAAC8F;background:#fff;position:absolute;top:80px;left:50%;box-sizing:border-box;border-radius:100%}section.hotel-card .hotel-card-inner .card-heading{text-align:right;box-sizing:border-box}section.hotel-card .hotel-card-inner .card-heading h2{padding:70px 80px 0 0;border-bottom:1px dashed #BAAC8F;display:inline-block;font-size:26px;font-weight:600;font-family:"Montserrat",sans-serif}section.hotel-card .hotel-card-inner .card-heading p{margin-bottom:30px;font-size:16px;color:#888;letter-spacing:.2px;font-family:"Noto Sans",sans-serif;padding-right:80px}section.hotel-card .hotel-card-inner .card-heading .btn-read a{padding:0 30px;font:14px/44px "Work Sans";color:#fff;letter-spacing:.5px;text-transform:uppercase;background:#cb8670;display:inline-block;position:relative;cursor:pointer;white-space:nowrap;box-sizing:border-box;transition:.3s ease;border:1px solid #cb8670}section.hotel-card .hotel-card-inner .card-heading .btn-read a:hover{background-color:transparent;color:#cb8670;border:1px solid #cb8670}section.hotel-card .hotel-card-inner .second-line .card-heading.one{padding:60px 0 0 80px;text-align:left}section.hotel-card .hotel-card-inner .second-line .hotel-img.one{padding:60px 80px 0 0}section.hotel-card .hotel-card-inner .second-line{position:relative}section.hotel-card .hotel-card-inner .second-line:before{content:"\f105";font-size:20px;line-height:40px;color:#BAAC8F;text-align:center;font-family:fontAwesome;width:40px;height:40px;margin-left:-20px;border:1px solid #BAAC8F;background:#fff;position:absolute;top:80px;left:50%;box-sizing:border-box;border-radius:100%}@media screen and (max-width: 991px){section.hotel-card .hotel-card-inner .second-line:before{display:none}}section.hotel-card .hotel-card-inner .second-line .card-heading.one h2{margin:0 0 30px -80px;padding:0 10px 5px 80px}section.hotel-card .hotel-card-inner .second-arrow{position:relative}section.hotel-card .hotel-card-inner .second-arrow::before{content:"\f104";font-size:20px;line-height:40px;color:#BAAC8F;text-align:center;font-family:fontAwesome;width:40px;height:40px;margin-left:-20px;border:1px solid #BAAC8F;background:#fff;position:absolute;top:80px;left:50%;box-sizing:border-box;border-radius:100%}@media screen and (max-width: 991px){section.hotel-card .hotel-card-inner .second-arrow::before{display:none}}section.hotel-card .first .hotel-img{padding:0 0 0 80px}section.hotel-card .hotel-img img{height:280px;object-fit:cover;object-position:top;overflow:hidden}.arrow-icon .first .hotel-img{padding:70px 0 0 80px}.arrow-icon .second-arrow .hotel-img.one{padding:70px 0 0 80px;text-align:right}.btn-read{padding-right:80px}@media screen and (max-width: 991px){.btn-read{padding:0}}section.site-bnr.contact{background:url(../img/cobtact-page.jpg) no-repeat;height:400px;background-size:cover;background-position:center;height:400px;object-fit:cover}section.content-contact{padding-top:70px}section.content-contact .content-inner h5{font-size:22px;color:#000;font-weight:500;font-family:"Noto Sans",sans-serif}section.content-contact .content-inner p{font-size:16px;color:#2d2d2d;font-family:"Noto Sans",sans-serif}section.content-contact .content-inner p a{color:#cb8670}section.site-bnr.contact.terms{background:url(../img/termsbg.avif) no-repeat;background-position:center;background-size:cover}section.terms{padding:60px 0 0}section.terms .condition_wrap h5{font-size:22px;margin-bottom:10px;color:#000;font-family:"Noto Sans",sans-serif;font-weight:600}section.terms .condition_wrap p{font-size:16px;color:#2d2d2d;font-family:"Noto Sans",sans-serif;font-weight:500}section.terms .condition_wrap ul li{position:relative;padding-left:20px;padding-bottom:15px;font-size:16px;font-family:"Noto Sans",sans-serif}section.terms .condition_wrap ul li::before{position:absolute;content:"";background:#cb8670;width:8px;height:8px;top:8px;left:0;border-radius:50%}section.site-bnr.Luksus.Lomakeskus{background:url(../img/Holiday-bnner.jpg) no-repeat;background-position:center;background-size:cover}section.lomakeskus-card .orla .row .col-lg-4.col-md-6{margin-bottom:20px}section.lomakeskus-card .card-design{background-color:#fff;box-shadow:0 3px 17px rgba(0,0,0,0.2);height:100%;transition:all .3s}section.lomakeskus-card .card-design:hover{transform:translateY(-6px)}section.lomakeskus-card .card-design .card-img-inner img{height:293px;object-fit:cover}section.lomakeskus-card .card-design .card-design-inner-text{padding:0 31px 30px}section.lomakeskus-card .card-design .card-design-inner-text h4{margin:20px 0;font-size:22px;color:#000;font-family:"Noto Sans",sans-serif;font-weight:600}section.lomakeskus-card .card-design .card-design-inner-text p{font-size:16px;color:#000;font-family:"Noto Sans",sans-serif;font-weight:400;margin-bottom:20px}section.lomakeskus-card .card-design .card-design-inner-text a{padding:0 30px;font:14px/44px "Work Sans";color:#fff;letter-spacing:.5px;text-transform:uppercase;background:#cb8670;display:inline-block;position:relative;cursor:pointer;white-space:nowrap;box-sizing:border-box;transition:.3s ease;border:1px solid #cb8670}section.lomakeskus-card .card-design .card-design-inner-text a:hover{background-color:transparent;color:#cb8670;border:1px solid #cb8670}.luxury-card .luxury-card-inner{background-color:#fff;transition:all .3s;box-shadow:0 0 7px rgba(203,134,112,0.2901960784);margin:30px 0;padding:16px}.luxury-card .luxury-card-inner:hover{box-shadow:0 15px 45px 0 rgba(0,0,0,0.31)}.luxury-card .luxury-card-inner .row{align-items:center}.luxury-card .luxury-card-inner .row .text_box .main_hotel .img_box{overflow:hidden;transition:all .3s}.luxury-card .luxury-card-inner .row .text_box .main_hotel .img_box img{height:277px;object-fit:cover}.luxury-card .luxury-card-inner .row .text_box .main_hotel .img_box img:hover{transform:scale(1.2);transition:all .3s}.luxury-card .luxury-card-inner .row .text_hotel{width:100%;max-width:536px;margin:0 auto}.luxury-card .luxury-card-inner .row .text_hotel h3{font-size:22px;color:#000;font-family:"Noto Sans",sans-serif;font-weight:600}.luxury-card .luxury-card-inner .row .text_hotel p{font-size:16px;color:#000;font-family:"Noto Sans",sans-serif;font-weight:400}.luxury-card .luxury-card-inner .row .banner-btn.main a{padding:0 30px;font:14px/44px "Work Sans";color:#fff;letter-spacing:.5px;text-transform:uppercase;background:#cb8670;display:inline-block;position:relative;cursor:pointer;white-space:nowrap;box-sizing:border-box;transition:.3s ease;border:1px solid #cb8670}.luxury-card .luxury-card-inner .row .banner-btn.main a:hover{background-color:transparent;color:#cb8670}section.site-bnr.Luksus.ainutlaatuinen{background:url(../img/Unique-banner.jpg);background-position:center;background-repeat:no-repeat;background-size:cover}section.ainutlaatuisten{padding-top:50px}.ainutlaatuisten-inner .row{align-items:center}.ainutlaatuisten-inner .figure-classic{margin-top:22px;position:relative;display:inline-block}.ainutlaatuisten-inner .figure-classic::before{display:inline-block;position:absolute;content:"";top:0;right:0;bottom:0;left:0;border:2px solid #444349;transition:all .3s ease;z-index:-9}.ainutlaatuisten-inner .figure-classic:hover::before{transform:none}.ainutlaatuisten-inner .figure-classic img{position:relative;transition:all .3s ease}.ainutlaatuisten-inner .figure-classic-left{margin-left:22px}.ainutlaatuisten-inner .figure-classic-left::before{transform:translate3d(-22px,-22px,0)}.ainutlaatuisten-inner .figure-classic-left img{max-width:556px;margin:0 auto;height:382px;object-fit:cover}@media (max-width: 767px){.ainutlaatuisten-inner .figure-classic-left img{height:auto;max-width:100%}}.ainutlaatuisten-inner .figure-classic-left:hover img{transform:translate3d(-22px,-22px,0)}@media screen and (max-width: 767px){.ainutlaatuisten-inner .Hotel-text{margin-top:40px}}.ainutlaatuisten-inner .Hotel-text h3{font-size:22px;color:#000;font-family:"Noto Sans",sans-serif;font-weight:600;margin-bottom:20px}.ainutlaatuisten-inner .Hotel-text p{color:#000;font-size:16px;font-weight:400;font-family:"Noto Sans",sans-serif;margin-bottom:20px}.ainutlaatuisten-inner .Hotel-text a{padding:0 30px;font:14px/44px "Work Sans";color:#fff;letter-spacing:.5px;text-transform:uppercase;background:#cb8670;display:inline-block;position:relative;cursor:pointer;white-space:nowrap;box-sizing:border-box;transition:.3s ease;border:1px solid #cb8670}.ainutlaatuisten-inner .Hotel-text a:hover{background-color:transparent;color:#cb8670;border:1px solid #cb8670}section.ainutlaatuinen-hotel{padding:80px 0}section.ainutlaatuinen-hotel .hotel-inner .product-big{border:1px solid #e1e1e1}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img{overflow:hidden}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img{height:366px;object-fit:cover;transition:all 2s}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img:hover{transform:scale(1.1)}@media (max-width: 575px){section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img{height:auto}}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body{padding:30px 70px 30px 10%}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body h3{font-size:22px;color:#000;font-family:"Noto Sans",sans-serif;font-weight:600;margin-bottom:20px;max-width:300px}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .group-sm.group-middle.justify-content-start .product-big-rating i{color:#ffd121;font-size:16px}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body p{color:#000;font-size:16px;font-weight:400;font-family:"Noto Sans",sans-serif;margin:20px 0}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .ainutlaatuinen-bnt a{padding:0 30px;font:14px/44px "Work Sans";color:#fff;letter-spacing:.5px;text-transform:uppercase;background:#cb8670;display:inline-block;position:relative;cursor:pointer;white-space:nowrap;box-sizing:border-box;transition:.3s ease;border:1px solid #cb8670}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .ainutlaatuinen-bnt a:hover{background-color:transparent;color:#cb8670;border:1px solid #cb8670}section.ainutlaatuinen-hotel .hotel-inner.one{margin-top:40px}section.site-bnr.Luksus.tarjoukset{background:url(../img/Bidding-banner.jpg) no-repeat;background-position:center;background-size:cover}section.site-bnr.contact.privacy{background:url(../img/bg-elements.jpg) no-repeat;background-position:center;background-size:cover}.container-preloader{align-items:center;cursor:none;display:flex;height:100%;justify-content:center;position:fixed;left:0;top:0;width:100%;z-index:999999999999}.container-preloader .animation-preloader{position:absolute;z-index:100}.container-preloader .animation-preloader .spinner{animation:spinner 1s infinite linear;border-radius:50%;border:10px solid rgba(0,0,0,0.2);border-top-color:#cb8670;height:9em;margin:0 auto 3.5em;width:9em}.container-preloader .animation-preloader .txt-loading{font:bold 5em Montserrat,sans-serif;text-align:center;user-select:none}.container-preloader .animation-preloader .txt-loading .characters:before{animation:characters 2s infinite;color:#cb8670;content:attr(preloader-text);left:0;opacity:0;position:absolute;top:0;transform:rotateY(-90deg)}.container-preloader .animation-preloader .txt-loading .characters{color:rgba(0,0,0,0.2);position:relative}.container-preloader .animation-preloader .txt-loading .characters:nth-child(2):before{animation-delay:.2s}.container-preloader .animation-preloader .txt-loading .characters:nth-child(3):before{animation-delay:.4s}.container-preloader .animation-preloader .txt-loading .characters:nth-child(4):before{animation-delay:.6s}.container-preloader .animation-preloader .txt-loading .characters:nth-child(5):before{animation-delay:.8s}.container-preloader .animation-preloader .txt-loading .characters:nth-child(6):before{animation-delay:1s}.container-preloader .animation-preloader .txt-loading .characters:nth-child(7):before{animation-delay:1.2s}.container-preloader .loader-section{background-color:#fff;height:100%;position:fixed;top:0;width:calc(50% + 1px)}.container-preloader .loader-section.section-left{left:0}.container-preloader .loader-section.section-right{right:0}.loaded .animation-preloader{opacity:0;transition:.3s ease-out}.loaded .loader-section.section-left{transform:translateX(-101%);transition:.7s .3s all cubic-bezier(0.1,0.1,0.1,1)}.loaded .loader-section.section-right{transform:translateX(101%);transition:.7s .3s all cubic-bezier(0.1,0.1,0.1,1)}@keyframes spinner{to{transform:rotateZ(360deg)}}@keyframes characters{0%,75%,100%{opacity:0;transform:rotateY(-90deg)}25%,50%{opacity:1;transform:rotateY(0deg)}}@media screen and (max-width: 767px){.container-preloader .animation-preloader .spinner{height:8em;width:8em}.container-preloader .animation-preloader .txt-loading{font:bold 3.5em Montserrat,sans-serif}}@media screen and (max-width: 500px){.container-preloader .animation-preloader .spinner{height:7em;width:7em}.container-preloader .animation-preloader .txt-loading{font:bold 2em Montserrat,sans-serif}}.origin{text-decoration:none;font-size:45px}.text_hotel h6{font-size:19px;margin:12px 0;font-weight:700}.text_hotel h6 span{font-weight:600;font-size:18px}section.site-bnr.Luksus.entertainment{background:url(../img/entertainment.jpg) no-repeat;background-size:cover;background-position:center}@media (max-width: 1259px){section.hotel-card .hotel-card-inner .card-heading h2{font-size:20px}}@media (max-width: 1199px){section.hotel-card .hotel-card-inner .arrow-icon:before,section.hotel-card .hotel-card-inner .second-line:before,section.hotel-card .hotel-card-inner .second-arrow::before{display:none}.site-bnr{height:700px}.understand{padding:80px 0}.understand .understand-text{padding:0}.site-header .site-nav li a{padding:10px 0 10px 13px}}@media screen and (max-width: 991px){.card-img{padding:0}.col-md-6.col-lg-3{margin-top:10px}.content{height:auto}.card-box{height:auto}.content .content-overlay{opacity:1}.fadeIn-bottom{top:50%}.content-details{opacity:1}.site-nav{position:fixed;top:0;left:0;right:0;bottom:0;width:300px;background:#000;transition:.4s cubic-bezier(0,0,0.13,0.61);transform:translateX(-100%);z-index:9999}.site-header .site-nav ul{display:block;margin-top:40px}.site-header .site-nav ul li{border-bottom:1px solid #fff}.site-header .site-nav ul li a{color:#fff;font-weight:600}.site-header .menu-toggle{display:block}.site-header .closed-menu{font-size:40px;color:#fff;position:absolute;top:-5px;right:15px;display:inline-block!important}.site-header .closed-menu a{color:#fff}.toggle .site-nav{transform:translateX(0)}.site-bnr{height:auto}.site-bnr .bnr-text h1{font-size:3rem}section.hotel-card .hotel-card-inner .card-heading{text-align:left}section.hotel-card .hotel-card-inner .card-heading h2{padding:0}section.hotel-card .first .hotel-img{padding:0;margin-bottom:24px}.first .row{flex-direction:column-reverse}section.hotel-card .hotel-img img{height:300px}section.hotel-card .hotel-card-inner .second-line .hotel-img.one{padding:0}section.hotel-card .hotel-card-inner .second-line .card-heading.one{padding:0;text-align:left}section.hotel-card .hotel-card-inner .second-line .card-heading.one h2{margin:0;padding:0}.second-arrow .row{flex-direction:column-reverse}.arrow-icon .second-arrow .hotel-img.one{padding:0;text-align:right}.first{margin-bottom:40px}.second-line .card-heading.one{margin-top:29px}.card-heading.one{margin:30px 0}section.ainutlaatuisten{padding-top:20px}section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body{padding:30px 19px 30px 7%}.luxury-card .luxury-card-inner .row .text_hotel{width:100%;max-width:100%;margin:0 auto;padding:20px 0}footer.footer .knsl-copyright{margin-top:54px}.site-bnr{background-position:center;background-size:cover;padding:100px 0;height:400px;background-attachment:unset}.understand{background-attachment:unset}}@media (max-width: 767px){footer.footer .footer-insta{float:none;width:62%;margin:0 auto}.understand{padding:50px 0}section.lomakeskus-card .orla .row .col-lg-4.col-md-6:last-child{margin:0}.col-md-6.col-lg-2{margin-top:20px}footer.footer{text-align:center}footer.footer .knsl-footer-about{margin:0 auto}.footer-insta{justify-content:center}}
+/*global start*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ECFAFB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cb8670;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding: 0 !important;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+a:focus {
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1400px !important;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 25px !important;
+}
+
+/*global end*/
+.site-header {
+  padding: 10px 0;
+  background: transparent;
+  width: 100%;
+  z-index: 9999999;
+  transition: all 0.5s linear;
+  top: 0;
+  position: absolute;
+}
+.site-header .header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header .site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.site-header .site-nav li a {
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 0 10px 24px;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+  font-family: "Noto Sans", sans-serif;
+}
+.site-header .site-nav li a.active {
+  color: #cb8670;
+}
+.site-header .site-nav li a:hover {
+  color: #4c9ef1;
+}
+.site-header .site-nav li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #cb8670;
+  transition: width 0.3s;
+}
+.site-header .site-nav li a:hover::after {
+  width: 100%;
+}
+.site-header .site-nav li a:hover {
+  color: #cb8670;
+}
+.site-header .closed-menu {
+  display: none;
+}
+.site-header .menu-toggle {
+  display: none;
+}
+.site-header .menu-toggle .bar-1,
+.site-header .bar-2,
+.site-header .bar-3 {
+  width: 2.5rem;
+  height: 2px;
+  background-color: #fff;
+  margin: 0.6rem 0;
+  transition: all 0.3s linear;
+  display: block;
+}
+
+.site-bnr {
+  background: url(../img/homebanners1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+.site-bnr::after {
+  background-color: rgba(0, 0, 0, 0.6705882353);
+  opacity: 0.65;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: -9;
+}
+.site-bnr .bnr-text {
+  text-align: center;
+}
+.site-bnr .bnr-text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 700;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.site-bnr .bnr-text .button-wrapper a {
+  background-color: #cb8670;
+  color: #fff;
+  padding-top: 17px;
+  padding-right: 40px;
+  padding-bottom: 17px;
+  padding-left: 40px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  display: inline-block;
+  border: 1px solid #cb8670;
+}
+.site-bnr .bnr-text .button-wrapper a:hover {
+  background-color: transparent;
+  color: #cb8670;
+  border: 1px solid #cb8670;
+}
+
+section.discritpion-bnr {
+  background-color: #fff;
+  padding: 50px 0;
+}
+section.discritpion-bnr .discritpion p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem;
+  margin: 0;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+.card-img {
+  padding: 0px 0 80px;
+}
+
+.main-title {
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.card-box {
+  padding: 1em 0;
+  width: 100%;
+  height: 250px;
+}
+
+.card-box .title {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 250px;
+  object-fit: cover;
+}
+
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+h3.content-title {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.understand {
+  background: url(../img/Home-parallex.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 0;
+  margin-top: 50px;
+  z-index: 99;
+  position: relative;
+}
+.understand::after {
+  background-color: rgba(0, 0, 0, 0.6705882353);
+  opacity: 0.65;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  z-index: -9;
+}
+.understand .understand-text {
+  text-align: center;
+}
+.understand .understand-text h3 {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 14px;
+}
+.understand .understand-text p {
+  font-size: 16px;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 12px;
+}
+.understand .understand-text .button-wrapper a {
+  padding: 14px 40px;
+  background-color: #cb8670;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  border: 1px solid #cb8670;
+  border-radius: 30px;
+}
+.understand .understand-text .button-wrapper a:hover {
+  background-color: transparent;
+  color: #cb8670;
+  border: 1px solid #cb8670;
+}
+
+body#home-page footer.footer {
+  margin: 0;
+}
+
+footer.footer {
+  background-color: rgba(0, 0, 0, 0.95);
+  padding: 60px 0 0 0;
+  margin-top: 100px;
+}
+footer.footer img.knsl-footer-logo {
+  width: 100%;
+  margin-bottom: 33px;
+  max-width: 221px;
+}
+footer.footer .knsl-footer-about {
+  display: block;
+  width: 80%;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+footer.footer .knsl-footer-social {
+  padding-top: 50px;
+}
+footer.footer .knsl-footer-social i {
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  padding: 9px;
+  text-align: center;
+  color: #cb8670;
+  font-size: 22px;
+  border-radius: 30px;
+  transition: all 0.2s;
+}
+footer.footer .knsl-footer-social i:hover {
+  background-color: #cb8670;
+  color: #fff;
+}
+footer.footer .knsl-footer-social a {
+  color: #fff;
+  margin-right: 10px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+footer.footer .footer-inner h4 {
+  position: relative;
+  margin-bottom: 33px;
+  color: #ECFAFB;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+footer.footer .footer-menu li {
+  margin-bottom: 20px;
+}
+footer.footer ul.footer-menu li a {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Noto Sans", sans-serif;
+  transition: all 0.3s;
+  text-transform: capitalize;
+}
+footer.footer ul.footer-menu li a:hover {
+  color: #cb8670;
+  padding-left: 10px;
+}
+footer.footer .footer-insta a {
+  border-radius: 5px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 25%;
+  padding-bottom: 28%;
+  transition: 0.4s ease-in-out;
+  margin: 0 15px 0px 0;
+  overflow: hidden;
+}
+footer.footer .footer-insta {
+  float: left;
+  font-size: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+footer.footer .footer-insta a:hover {
+  transform: scale(1.05);
+}
+footer.footer .footer-insta a img {
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+footer.footer .knsl-copyright {
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 20px 0;
+  color: #8588A2;
+  margin-top: 60px;
+}
+footer.footer .knsl-copyright .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Noto Sans", sans-serif;
+}
+footer.footer .copy-text {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+footer.footer .copy-text a {
+  color: #cb8670;
+}
+
+section.site-bnr.Luksus {
+  background: url(../img/Luxury-banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  object-fit: cover;
+}
+
+section.hotel-card {
+  padding: 0px 0 0;
+}
+section.hotel-card .hotel-card-inner {
+  position: relative;
+}
+section.hotel-card .hotel-card-inner::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: #EEE;
+}
+@media screen and (max-width: 991px) {
+  section.hotel-card .hotel-card-inner::before {
+    display: none;
+  }
+}
+section.hotel-card .hotel-card-inner .arrow-icon:before {
+  content: "\f104";
+  font-size: 20px;
+  line-height: 40px;
+  color: #BAAC8F;
+  text-align: center;
+  font-family: fontAwesome;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  border: 1px solid #BAAC8F;
+  background: #fff;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+section.hotel-card .hotel-card-inner .card-heading {
+  text-align: right;
+  box-sizing: border-box;
+}
+section.hotel-card .hotel-card-inner .card-heading h2 {
+  padding: 70px 80px 0 0;
+  border-bottom: 1px dashed #BAAC8F;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+section.hotel-card .hotel-card-inner .card-heading p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: 0.2px;
+  font-family: "Noto Sans", sans-serif;
+  padding-right: 80px;
+}
+section.hotel-card .hotel-card-inner .card-heading .btn-read a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #cb8670;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #cb8670;
+}
+section.hotel-card .hotel-card-inner .card-heading .btn-read a:hover {
+  background-color: transparent;
+  color: #cb8670;
+  border: 1px solid #cb8670;
+}
+section.hotel-card .hotel-card-inner .second-line .card-heading.one {
+  padding: 60px 0 0 80px;
+  text-align: left;
+}
+section.hotel-card .hotel-card-inner .second-line .hotel-img.one {
+  padding: 60px 80px 0 0px;
+}
+section.hotel-card .hotel-card-inner .second-line {
+  position: relative;
+}
+section.hotel-card .hotel-card-inner .second-line:before {
+  content: "\f105";
+  font-size: 20px;
+  line-height: 40px;
+  color: #BAAC8F;
+  text-align: center;
+  font-family: fontAwesome;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  border: 1px solid #BAAC8F;
+  background: #fff;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+@media screen and (max-width: 991px) {
+  section.hotel-card .hotel-card-inner .second-line:before {
+    display: none;
+  }
+}
+section.hotel-card .hotel-card-inner .second-line .card-heading.one h2 {
+  margin: 0 0 30px -80px;
+  padding: 0 10px 5px 80px;
+}
+section.hotel-card .hotel-card-inner .second-arrow {
+  position: relative;
+}
+section.hotel-card .hotel-card-inner .second-arrow::before {
+  content: "\f104";
+  font-size: 20px;
+  line-height: 40px;
+  color: #BAAC8F;
+  text-align: center;
+  font-family: fontAwesome;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  border: 1px solid #BAAC8F;
+  background: #fff;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+@media screen and (max-width: 991px) {
+  section.hotel-card .hotel-card-inner .second-arrow::before {
+    display: none;
+  }
+}
+section.hotel-card .first .hotel-img {
+  padding: 0 0 0 80px;
+}
+section.hotel-card .hotel-img img {
+  height: 280px;
+  object-fit: cover;
+  object-position: top;
+  overflow: hidden;
+}
+
+.arrow-icon .first .hotel-img {
+  padding: 70px 0 0 80px;
+}
+
+.arrow-icon .second-arrow .hotel-img.one {
+  padding: 70px 0 0 80px;
+  text-align: right;
+}
+
+.btn-read {
+  padding-right: 80px;
+}
+@media screen and (max-width: 991px) {
+  .btn-read {
+    padding: 0;
+  }
+}
+
+section.site-bnr.contact {
+  background: url(../img/cobtact-page.jpg) no-repeat;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  object-fit: cover;
+}
+
+section.content-contact {
+  padding-top: 70px;
+}
+section.content-contact .content-inner h5 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+}
+section.content-contact .content-inner p {
+  font-size: 16px;
+  color: #2d2d2d;
+  font-family: "Noto Sans", sans-serif;
+}
+section.content-contact .content-inner p a {
+  color: #cb8670;
+}
+
+section.site-bnr.contact.terms {
+  background: url(../img/termsbg.avif) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.terms {
+  padding: 60px 0 0 0;
+}
+section.terms .condition_wrap h5 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+section.terms .condition_wrap p {
+  font-size: 16px;
+  color: #2d2d2d;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+}
+section.terms .condition_wrap ul li {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+section.terms .condition_wrap ul li::before {
+  position: absolute;
+  content: "";
+  background: #cb8670;
+  width: 8px;
+  height: 8px;
+  top: 8px;
+  left: 0;
+  border-radius: 50%;
+}
+
+section.site-bnr.Luksus.Lomakeskus {
+  background: url(../img/Holiday-bnner.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.lomakeskus-card .orla .row .col-lg-4.col-md-6 {
+  margin-bottom: 20px;
+}
+section.lomakeskus-card .card-design {
+  background-color: #fff;
+  box-shadow: 0 3px 17px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  transition: all 0.3s;
+}
+section.lomakeskus-card .card-design:hover {
+  transform: translateY(-6px);
+}
+section.lomakeskus-card .card-design .card-img-inner img {
+  height: 293px;
+  object-fit: cover;
+}
+section.lomakeskus-card .card-design .card-design-inner-text {
+  padding: 0 31px 30px;
+}
+section.lomakeskus-card .card-design .card-design-inner-text h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+section.lomakeskus-card .card-design .card-design-inner-text p {
+  font-size: 16px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+section.lomakeskus-card .card-design .card-design-inner-text a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #cb8670;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #cb8670;
+}
+section.lomakeskus-card .card-design .card-design-inner-text a:hover {
+  background-color: transparent;
+  color: #cb8670;
+  border: 1px solid #cb8670;
+}
+
+.luxury-card .luxury-card-inner {
+  background-color: #ffffff;
+  transition: all 0.3s;
+  box-shadow: 0 0 7px rgba(203, 134, 112, 0.2901960784);
+  margin: 30px 0;
+  padding: 16px 16px 16px;
+}
+.luxury-card .luxury-card-inner:hover {
+  box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.31);
+}
+.luxury-card .luxury-card-inner .row {
+  align-items: center;
+}
+.luxury-card .luxury-card-inner .row .text_box .main_hotel .img_box {
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.luxury-card .luxury-card-inner .row .text_box .main_hotel .img_box img {
+  height: 277px;
+  object-fit: cover;
+}
+.luxury-card .luxury-card-inner .row .text_box .main_hotel .img_box img:hover {
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+.luxury-card .luxury-card-inner .row .text_hotel {
+  width: 100%;
+  max-width: 536px;
+  margin: 0 auto;
+}
+.luxury-card .luxury-card-inner .row .text_hotel h3 {
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.luxury-card .luxury-card-inner .row .text_hotel p {
+  font-size: 16px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+.luxury-card .luxury-card-inner .row .banner-btn.main a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #cb8670;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #cb8670;
+}
+.luxury-card .luxury-card-inner .row .banner-btn.main a:hover {
+  background-color: transparent;
+  color: #cb8670;
+}
+
+section.site-bnr.Luksus.ainutlaatuinen {
+  background: url(../img/Unique-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.ainutlaatuisten {
+  padding-top: 50px;
+}
+
+.ainutlaatuisten-inner .row {
+  align-items: center;
+}
+.ainutlaatuisten-inner .figure-classic {
+  margin-top: 22px;
+  position: relative;
+  display: inline-block;
+}
+.ainutlaatuisten-inner .figure-classic::before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid #444349;
+  transition: all 0.3s ease;
+  z-index: -9;
+}
+.ainutlaatuisten-inner .figure-classic:hover::before {
+  transform: none;
+}
+.ainutlaatuisten-inner .figure-classic img {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.ainutlaatuisten-inner .figure-classic-left {
+  margin-left: 22px;
+}
+.ainutlaatuisten-inner .figure-classic-left::before {
+  transform: translate3d(-22px, -22px, 0);
+}
+.ainutlaatuisten-inner .figure-classic-left img {
+  max-width: 556px;
+  margin: 0 auto;
+  height: 382px;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .ainutlaatuisten-inner .figure-classic-left img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+.ainutlaatuisten-inner .figure-classic-left:hover img {
+  transform: translate3d(-22px, -22px, 0);
+}
+@media screen and (max-width: 767px) {
+  .ainutlaatuisten-inner .Hotel-text {
+    margin-top: 40px;
+  }
+}
+.ainutlaatuisten-inner .Hotel-text h3 {
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.ainutlaatuisten-inner .Hotel-text p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 20px;
+}
+.ainutlaatuisten-inner .Hotel-text a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #cb8670;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #cb8670;
+}
+.ainutlaatuisten-inner .Hotel-text a:hover {
+  background-color: transparent;
+  color: #cb8670;
+  border: 1px solid #cb8670;
+}
+
+section.ainutlaatuinen-hotel {
+  padding: 80px 0;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big {
+  border: 1px solid #e1e1e1;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img {
+  overflow: hidden;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img {
+  height: 366px;
+  object-fit: cover;
+  transition: all 2s;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 575px) {
+  section.ainutlaatuinen-hotel .hotel-inner .product-big .product-img img {
+    height: auto;
+  }
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body {
+  padding: 30px 70px 30px 10%;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body h3 {
+  font-size: 22px;
+  color: #000;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .group-sm.group-middle.justify-content-start .product-big-rating i {
+  color: #ffd121;
+  font-size: 16px;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  margin: 20px 0;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .ainutlaatuinen-bnt a {
+  padding: 0px 30px;
+  font: 14px/44px "Work Sans";
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: #cb8670;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  border: 1px solid #cb8670;
+}
+section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body .ainutlaatuinen-bnt a:hover {
+  background-color: transparent;
+  color: #cb8670;
+  border: 1px solid #cb8670;
+}
+section.ainutlaatuinen-hotel .hotel-inner.one {
+  margin-top: 40px;
+}
+
+section.site-bnr.Luksus.tarjoukset {
+  background: url(../img/Bidding-banner.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section.site-bnr.contact.privacy {
+  background: url(../img/bg-elements.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Preloader */
+.container-preloader {
+  align-items: center;
+  cursor: none;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999999999999;
+}
+
+.container-preloader .animation-preloader {
+  position: absolute;
+  z-index: 100;
+}
+
+/* Spinner Loading */
+.container-preloader .animation-preloader .spinner {
+  animation: spinner 1s infinite linear;
+  border-radius: 50%;
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  border-top-color: #cb8670;
+  /* It is not in alphabetical order so that you do not overwrite it */
+  height: 9em;
+  margin: 0 auto 3.5em auto;
+  width: 9em;
+}
+
+/* Loading text */
+.container-preloader .animation-preloader .txt-loading {
+  font: bold 5em "Montserrat", sans-serif;
+  text-align: center;
+  user-select: none;
+}
+
+.container-preloader .animation-preloader .txt-loading .characters:before {
+  animation: characters 2s infinite;
+  color: #cb8670;
+  content: attr(preloader-text);
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: rotateY(-90deg);
+}
+
+.container-preloader .animation-preloader .txt-loading .characters {
+  color: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(2):before {
+  animation-delay: 0.2s;
+}
+
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(3):before {
+  animation-delay: 0.4s;
+}
+
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(4):before {
+  animation-delay: 0.6s;
+}
+
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(5):before {
+  animation-delay: 0.8s;
+}
+
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(6):before {
+  animation-delay: 1s;
+}
+
+.container-preloader .animation-preloader .txt-loading .characters:nth-child(7):before {
+  animation-delay: 1.2s;
+}
+
+.container-preloader .loader-section {
+  background-color: #ffffff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: calc(50% + 1px);
+}
+
+.container-preloader .loader-section.section-left {
+  left: 0;
+}
+
+.container-preloader .loader-section.section-right {
+  right: 0;
+}
+
+/* Fade effect on loading animation */
+.loaded .animation-preloader {
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+/* Curtain effect */
+.loaded .loader-section.section-left {
+  transform: translateX(-101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+.loaded .loader-section.section-right {
+  transform: translateX(101%);
+  transition: 0.7s 0.3s all cubic-bezier(0.1, 0.1, 0.1, 1);
+}
+
+/* Animation of the preloader */
+@keyframes spinner {
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+/* Animation of letters loading from the preloader */
+@keyframes characters {
+  0%, 75%, 100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+  25%, 50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+/* Laptop size back (laptop, tablet, cell phone) */
+@media screen and (max-width: 767px) {
+  /* Preloader */
+  /* Spinner Loading */
+  .container-preloader .animation-preloader .spinner {
+    height: 8em;
+    width: 8em;
+  }
+  /* Text Loading */
+  .container-preloader .animation-preloader .txt-loading {
+    font: bold 3.5em "Montserrat", sans-serif;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* Prelaoder */
+  /* Spinner Loading */
+  .container-preloader .animation-preloader .spinner {
+    height: 7em;
+    width: 7em;
+  }
+  /*Loading text */
+  .container-preloader .animation-preloader .txt-loading {
+    font: bold 2em "Montserrat", sans-serif;
+  }
+}
+.origin {
+  text-decoration: none;
+  font-size: 45px;
+}
+
+.text_hotel h6 {
+  font-size: 19px;
+  margin: 12px 0;
+  font-weight: 700;
+}
+
+.text_hotel h6 span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+section.site-bnr.Luksus.entertainment {
+  background: url(../img/entertainment.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1259px) {
+  section.hotel-card .hotel-card-inner .card-heading h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  section.hotel-card .hotel-card-inner .arrow-icon:before,
+  section.hotel-card .hotel-card-inner .second-line:before,
+  section.hotel-card .hotel-card-inner .second-arrow::before {
+    display: none;
+  }
+  .site-bnr {
+    height: 700px;
+  }
+  .understand {
+    padding: 80px 0;
+  }
+  .understand .understand-text {
+    padding: 0 0 0 0;
+  }
+  .site-header .site-nav li a {
+    padding: 10px 0 10px 13px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .card-img {
+    padding: 0px 0 0px;
+  }
+  .col-md-6.col-lg-3 {
+    margin-top: 10px;
+  }
+  .content {
+    height: auto;
+  }
+  .card-box {
+    height: auto;
+  }
+  .content .content-overlay {
+    opacity: 1;
+  }
+  .fadeIn-bottom {
+    top: 50%;
+  }
+  .content-details {
+    opacity: 1;
+  }
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    background: #000;
+    transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+    transform: translateX(-100%);
+    z-index: 9999;
+  }
+  .site-header .site-nav ul {
+    display: block;
+    margin-top: 40px;
+  }
+  .site-header .site-nav ul li {
+    border-bottom: 1px solid #fff;
+  }
+  .site-header .site-nav ul li a {
+    color: #fff;
+    font-weight: 600;
+  }
+  .site-header .menu-toggle {
+    display: block;
+  }
+  .site-header .closed-menu {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: 15px;
+    display: inline-block !important;
+  }
+  .site-header .closed-menu a {
+    color: #fff;
+  }
+  .toggle .site-nav {
+    transform: translateX(0);
+  }
+  .site-bnr {
+    height: auto;
+  }
+  .site-bnr .bnr-text h1 {
+    font-size: 3rem;
+  }
+  section.hotel-card .hotel-card-inner .card-heading {
+    text-align: left;
+  }
+  section.hotel-card .hotel-card-inner .card-heading h2 {
+    padding: 0;
+  }
+  section.hotel-card .first .hotel-img {
+    padding: 0 0 0 0px;
+    margin-bottom: 24px;
+  }
+  .first .row {
+    flex-direction: column-reverse;
+  }
+  section.hotel-card .hotel-img img {
+    height: 300px;
+  }
+  section.hotel-card .hotel-card-inner .second-line .hotel-img.one {
+    padding: 0;
+  }
+  section.hotel-card .hotel-card-inner .second-line .card-heading.one {
+    padding: 0;
+    text-align: left;
+  }
+  section.hotel-card .hotel-card-inner .second-line .card-heading.one h2 {
+    margin: 0;
+    padding: 0;
+  }
+  .second-arrow .row {
+    flex-direction: column-reverse;
+  }
+  .arrow-icon .second-arrow .hotel-img.one {
+    padding: 0;
+    text-align: right;
+  }
+  .first {
+    margin-bottom: 40px;
+  }
+  .second-line .card-heading.one {
+    margin-top: 29px;
+  }
+  .card-heading.one {
+    margin: 30px 0;
+  }
+  section.ainutlaatuisten {
+    padding-top: 20px;
+  }
+  section.ainutlaatuinen-hotel .hotel-inner .product-big .product-big-body {
+    padding: 30px 19px 30px 7%;
+  }
+  .luxury-card .luxury-card-inner .row .text_hotel {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  footer.footer .knsl-copyright {
+    margin-top: 54px;
+  }
+  .site-bnr {
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    height: 400px;
+    background-attachment: unset;
+  }
+  .understand {
+    background-attachment: unset;
+  }
+}
+@media (max-width: 767px) {
+  footer.footer .footer-insta {
+    float: none;
+    width: 62%;
+    margin: 0 auto;
+  }
+  .understand {
+    padding: 50px 0;
+  }
+  section.lomakeskus-card .orla .row .col-lg-4.col-md-6:last-child {
+    margin: 0;
+  }
+  .col-md-6.col-lg-2 {
+    margin-top: 20px;
+  }
+  footer.footer {
+    text-align: center;
+  }
+  footer.footer .knsl-footer-about {
+    margin: 0 auto;
+  }
+  .footer-insta {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
